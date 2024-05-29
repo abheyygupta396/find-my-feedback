@@ -45,9 +45,7 @@ const newMonths = [
 ];
 
 function FeedbackTable({ showManagerFeedback }) {
-  console.log(newMonths);
   const maxDays = Math.max(...newMonths.map((month) => month?.days?.length));
-  console.log(maxDays);
   return (
     <div className="pl-2">
       <table className="min-w-max w-full table-auto">
